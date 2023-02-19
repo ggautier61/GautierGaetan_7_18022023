@@ -1,0 +1,38 @@
+header {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* li {
+    text-decoration: none;
+    font-size: 24px;
+} */
+
+.nav-link {
+    /* text-decoration: none; */
+    font-size: 24px;
+    color: #FF6060;
+    width: 136px;
+    height: 34px;
+    display: flex;
+}
+
+#apropos .nav-link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 210.32px;
+    height: 68px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}

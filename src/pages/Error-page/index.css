@@ -1,0 +1,18 @@
+#error {
+    font-size: 288px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#error-page {
+    color: #FF6060;
+}
+
+.oups {
+    font-size: 36px;
+}
+
+.back-to-home {
+    font-size: 18px;
+    color: #FF6060;
+}
