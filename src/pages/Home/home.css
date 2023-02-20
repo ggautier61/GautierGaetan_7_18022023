@@ -1,0 +1,47 @@
+.home {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.banner {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-picture {
+    height: 223px;
+    min-width: 100%;
+    display: flex;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.banner-title {
+    position: absolute;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.home-logements-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: -1;
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.home-logement-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
