@@ -1,0 +1,8 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-comment {
+    position: absolute;
+    margin-top: -7px;
+}
