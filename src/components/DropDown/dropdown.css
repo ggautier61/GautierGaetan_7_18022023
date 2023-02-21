@@ -3,6 +3,20 @@
 }
 
 .dropdown-comment {
-    position: absolute;
     margin-top: -7px;
+    z-index: -1;
+    position: sticky;
+}
+
+.content-hidde {
+    height: 0px;
+    /* height: 0px; */
+    overflow: hidden;
+    transition: height ease 0.9s;
+}
+
+.content-show {
+    height: 150px;
+    transition: height ease 0.9s;
+    /* height: 200px; */
 }

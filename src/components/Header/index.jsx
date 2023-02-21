@@ -6,18 +6,21 @@ function Header() {
   return (
     <header>
       {/* <div> */}
-        <img id="logo" src={logo} alt='logo' />
-        <nav>
-          <ul className="nav-list">
-            <li id='accueil'>
-              <Link className="nav-link" to="/">Accueil</Link>
-            </li>
-            <li id="apropos">
-              <Link className="nav-link" to="/survey">A Propos</Link>
-            </li>
-          </ul>
-          
-        </nav>
+      <img id="logo" src={logo} alt="logo" />
+      <nav>
+        <ul className="nav-list">
+          <li id="accueil">
+            <Link className="nav-link" to="/">
+              Accueil
+            </Link>
+          </li>
+          <li id="apropos">
+            <Link className="nav-link" to="/a-propos">
+              A Propos
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
       {/* </div> */}
     </header>

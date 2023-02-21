@@ -6,11 +6,11 @@ import {
   // BrowserRouter as Router,
 } from 'react-router-dom'
 import Home from './pages/Home'
-import Survey from './pages/Survey'
 // import Header from './components/Header';
 import ErrorPage from './pages/Error-page/error-page'
 // import AppHeader from './components/Header'
 import '../src/index.css'
+import APropos from './pages/A-Propos'
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: '/survey',
-    element: <Survey />,
+    path: '/a-propos',
+    element: <APropos />,
   },
 ])
 

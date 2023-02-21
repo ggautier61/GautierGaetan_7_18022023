@@ -1,13 +1,34 @@
 import DropDownItem from './DropDown_Item'
 import DropDownTitle from './DropDown_Title'
 import '../DropDown/dropdown.css'
+import { useRef, useState } from 'react'
 
 function DropDown({ name, comment }) {
+  const [collapse, setOPen] = useState(false)
+
+  const toggle = () => {
+    setOPen(!collapse)
+  }
+
+  const contentRef = useRef()
+
   return (
     <div className="dropdown">
-      <DropDownTitle name={name} onClick={() => Collapse()} />
-      <div className="dropdown-comment">
-        <DropDownItem comment={comment} />
+      <div onClick={toggle}>
+        <DropDownTitle name={name} collapse={collapse} />
+      </div>
+      <div
+        className="content-hidde"
+        ref={contentRef}
+        style={
+          collapse
+            ? { height: contentRef.current.scrollHeight + 'px' }
+            : { height: '0px' }
+        }
+      >
+        <div className="dropdown-comment">
+          <DropDownItem comment={comment} />
+        </div>
       </div>
     </div>
   )
