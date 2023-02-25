@@ -1,3 +1,5 @@
+import "../Banner/banner.css"
+
 function Banner({ picture, texte }) {
   return (
     <div className="banner">

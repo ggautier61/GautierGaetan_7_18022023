@@ -1,20 +1,20 @@
-import { Link } from 'react-router-dom'
-import logo from '../../assets/logo.svg'
-import './index.css'
+import { Link } from "react-router-dom"
+import logo from "../../assets/logo.svg"
+import "./index.css"
 
 function Header() {
   return (
     <header>
       {/* <div> */}
       <img id="logo" src={logo} alt="logo" />
-      <nav>
+      <nav id="header-nav">
         <ul className="nav-list">
-          <li id="accueil">
+          <li id="accueil" className="w-auto">
             <Link className="nav-link" to="/">
               Accueil
             </Link>
           </li>
-          <li id="apropos">
+          <li id="apropos" className="w-auto">
             <Link className="nav-link" to="/a-propos">
               A Propos
             </Link>

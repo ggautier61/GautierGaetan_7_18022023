@@ -1,9 +1,9 @@
-import DropDownItem from './DropDown_Item'
-import DropDownTitle from './DropDown_Title'
-import '../DropDown/dropdown.css'
-import { useRef, useState } from 'react'
+import DropDownItem from "./DropDown_Item"
+import DropDownTitle from "./DropDown_Title"
+import "../DropDown/dropdown.css"
+import { useRef, useState } from "react"
 
-function DropDown({ name, comment }) {
+function DropDown({ name, comment, fontSize }) {
   const [collapse, setOPen] = useState(false)
 
   const toggle = () => {
@@ -22,12 +22,12 @@ function DropDown({ name, comment }) {
         ref={contentRef}
         style={
           collapse
-            ? { height: contentRef.current.scrollHeight + 'px' }
-            : { height: '0px' }
+            ? { height: contentRef.current.scrollHeight + "px" }
+            : { height: "0px" }
         }
       >
         <div className="dropdown-comment">
-          <DropDownItem comment={comment} />
+          <DropDownItem comment={comment} fontSize={fontSize} />
         </div>
       </div>
     </div>

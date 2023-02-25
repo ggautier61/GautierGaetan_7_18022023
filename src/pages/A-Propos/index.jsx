@@ -1,10 +1,10 @@
-import Banner from '../../components/Banner'
-import Header from '../../components/Header'
-import bannerAPropos from '../../assets/banner_a-propos.png'
-import { AProposItems } from '../../datas/a_propos_items'
-import DropDown from '../../components/DropDown'
-import '../A-Propos/a-propos.css'
-import '../Home/home.css'
+import Banner from "../../components/Banner"
+import Header from "../../components/Header"
+import bannerAPropos from "../../assets/banner_a-propos.png"
+import { AProposItems } from "../../datas/a_propos_items"
+import DropDown from "../../components/DropDown"
+import "../A-Propos/a-propos.css"
+import "../Home/home.css"
 
 function APropos() {
   return (
@@ -16,7 +16,11 @@ function APropos() {
           <div className="a-propos-list">
             {AProposItems.map(({ name, comment }) => (
               <div key={name} className="a-propos-item">
-                <DropDown name={name} comment={comment}></DropDown>
+                <DropDown
+                  name={name}
+                  comment={comment}
+                  fontSize="18"
+                ></DropDown>
               </div>
             ))}
           </div>

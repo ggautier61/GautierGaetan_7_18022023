@@ -1,10 +1,18 @@
-
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
 
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
 }
+
+/* #root {
+  display: flex;
+  justify-content: center;
+} */
 
 h2 {
   font-size: 36px;
@@ -14,6 +22,14 @@ h2 {
 p {
   font-size: 18px;
   font-weight: 400;
+}
+
+.main-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .font-main {
@@ -32,6 +48,10 @@ p {
   font-weight: 500;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -44,6 +64,10 @@ p {
   flex-wrap: nowrap;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -52,6 +76,9 @@ p {
   justify-content: space-between;
 }
 
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
 .justify-flex-end {
   justify-content: flex-end;
 }

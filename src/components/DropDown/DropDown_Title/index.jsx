@@ -5,11 +5,15 @@ function DropDownTitle({ name, collapse }) {
   return (
     <div className="dropdown-title">
       <div>{name}</div>
-      <div>
+      <div className="w-auto">
         {collapse ? (
-          <img src={arrow} alt="Flèche" className="dropdown-arrow-up"></img>
+          <img
+            src={arrow}
+            alt="Flèche"
+            className="w-auto dropdown-arrow-up"
+          ></img>
         ) : (
-          <img src={arrow} alt="Flèche"></img>
+          <img className="w-auto" src={arrow} alt="Flèche"></img>
         )}
       </div>
     </div>

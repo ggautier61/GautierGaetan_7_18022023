@@ -12,16 +12,19 @@ function Home() {
       <Header />
       <div id="content">
         <Banner picture={bannerHome} texte="Chez vous, partout et ailleurs" />
+
         <div className="home-logements-list">
-          {LogementsList.map(({ id, title, cover }) => (
-            <Link
-              key={id}
-              className="home-logement-item"
-              to={`/logement/${id}`}
-            >
-              <Thumb id={id} title={title} cover={cover}></Thumb>
-            </Link>
-          ))}
+          <div className="flex justify-center justify-space-evenly wrap">
+            {LogementsList.map(({ id, title, cover }) => (
+              <Link
+                key={id}
+                className="home-logement-item"
+                to={`/logement/${id}`}
+              >
+                <Thumb id={id} title={title} cover={cover}></Thumb>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ function Rate(props) {
               key={itemRange.toString()}
               src={StarRed}
               alt="star red"
-              className="mr-10"
+              className="star mr-10"
             ></img>
           ) : (
             // <div>{number</div>
@@ -29,7 +29,7 @@ function Rate(props) {
               key={itemRange}
               src={StarGray}
               alt="star gray"
-              className="mr-10"
+              className="star mr-10"
             ></img>
           )
         //   </div>

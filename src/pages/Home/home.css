@@ -1,32 +1,7 @@
-.main-container {
-    padding-left: 100px;
-    padding-right: 100px;
-    /* height: 100vh; */
-    max-width: 1440px;
-}
-.banner {
+#content {
     display: flex;
-    position: relative;
-    margin-bottom: 50px;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-
-.banner-picture {
-    height: 223px;
-    min-width: 100%;
-    display: flex;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
-.banner-title {
-    position: absolute;
-    font-weight: 500;
-    font-size: 24px;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
 }
 
 .home-logements-list {
@@ -39,9 +14,12 @@
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 25px;
+    width: auto;
+    max-width: 1440px;
 }
 
 .home-logement-item {
     padding-top: 25px;
     padding-bottom: 25px;
+    width: auto;
 }
