@@ -1,6 +1,7 @@
-.home {
-    margin-left: 100px;
-    margin-right: 100px;
+.main-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh;
 }
 .banner {
     display: flex;
@@ -31,8 +32,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
-    z-index: -1;
     background: #F7F7F7;
     border-radius: 25px;
     padding: 50px;

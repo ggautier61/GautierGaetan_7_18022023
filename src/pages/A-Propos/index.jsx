@@ -4,10 +4,11 @@ import bannerAPropos from '../../assets/banner_a-propos.png'
 import { AProposItems } from '../../datas/a_propos_items'
 import DropDown from '../../components/DropDown'
 import '../A-Propos/a-propos.css'
+import '../Home/home.css'
 
 function APropos() {
   return (
-    <div className="home">
+    <div className="main-container">
       <Header />
       <div id="content">
         <Banner picture={bannerAPropos} />

@@ -1,15 +1,11 @@
-import './thumb.css'
+import "./thumb.css"
 
-function Thumb({ title, cover }) {
+function Thumb({ id, title, cover }) {
   return (
-    <div>
-      <div className="thumb">
-        <div className="thumb-background"></div>
-        <img className="thumb-picture" src={cover} alt={title}></img>
-        {/* <div className="thumb-background"></div> */}
-        <div className="thumb-title">
-          <p>{title}</p>
-        </div>
+    <div className="thumb">
+      <img className="thumb-picture" src={cover} alt={title}></img>
+      <div className="thumb-title">
+        <p>{title}</p>
       </div>
     </div>
   )

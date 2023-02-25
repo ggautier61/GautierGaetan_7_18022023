@@ -11,3 +11,7 @@
     padding-right: 18px;
     cursor: pointer;
 }
+
+.dropdown-arrow-up {
+    transform: rotate(180deg);
+}
