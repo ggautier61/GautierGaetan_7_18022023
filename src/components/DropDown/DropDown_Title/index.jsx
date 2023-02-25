@@ -1,6 +1,5 @@
 import "../DropDown_Title/dropdown-title.css"
-import vector from "../../../assets/Vector.png"
-// import vector_open from '../../../assets/Vector_Open.png'
+import arrow from "../../../assets/Arrow_open.png"
 
 function DropDownTitle({ name, collapse }) {
   return (
@@ -8,9 +7,9 @@ function DropDownTitle({ name, collapse }) {
       <div>{name}</div>
       <div>
         {collapse ? (
-          <img src={vector} alt="Flèche" className="dropdown-arrow-up"></img>
+          <img src={arrow} alt="Flèche" className="dropdown-arrow-up"></img>
         ) : (
-          <img src={vector} alt="Flèche"></img>
+          <img src={arrow} alt="Flèche"></img>
         )}
       </div>
     </div>

@@ -31,10 +31,10 @@
 }
 
 .prev {
-    left: 15px;
+    left: 22px;
     transform: rotate(180deg);
 }
 
 .next {
-    right: 15px;
+    right:22px;
 }

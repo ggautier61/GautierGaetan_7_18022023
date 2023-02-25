@@ -1,0 +1,11 @@
+.tag {
+    height: 25px;
+    min-width: 115px;
+    border-radius: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.tag-title {
+    font-size: 14px
+}

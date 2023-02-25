@@ -1,10 +1,9 @@
 import React, { useState } from "react"
 import "./Carousel.css"
-import vector from "../../assets/Vector_Slide.png"
+import arrow from "../../assets/Arrow_Slide.png"
 
 const Carousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  console.log(images.length)
   const handleClickPrevious = () => {
     setCurrentImageIndex(
       (currentImageIndex - 1 + images.length) % images.length
@@ -25,7 +24,7 @@ const Carousel = ({ images }) => {
 
       {images.length > 1 && (
         <img
-          src={vector}
+          src={arrow}
           alt="Flèche précédente"
           onClick={handleClickPrevious}
           className="prev"
@@ -33,7 +32,7 @@ const Carousel = ({ images }) => {
       )}
       {images.length > 1 && (
         <img
-          src={vector}
+          src={arrow}
           alt="Flèche suivante"
           onClick={handleClickNext}
           className="next"
