@@ -21,9 +21,9 @@ header {
     display: flex;
 }
 
-#apropos .nav-link {
+/* #apropos .nav-link {
     text-decoration: none;
-}
+} */
 
 .logo {
     width: 210.32px;

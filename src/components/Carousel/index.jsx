@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Carousel.css"
-import vector from "../../assets/Vector.png"
+import vector from "../../assets/Vector_Slide.png"
 
 const Carousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
