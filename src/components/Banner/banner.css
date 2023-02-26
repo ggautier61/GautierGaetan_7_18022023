@@ -1,26 +1,42 @@
 .banner {
     display: flex;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 22px;
     justify-content: center;
     align-items: center;
-    /* width: auto; */
+    width: 100%;
 }
 
 .banner-picture {
-    height: 223px;
+    height: 111px;
+    max-height: 223px;
     min-width: 100%;
     display: flex;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .banner-title {
     position: absolute;
+    left: 16px;
+    right: 16px;
     font-weight: 500;
     font-size: 24px;
-    display: flex;
-    align-items: flex-end;
+    /* display: flex; */
+    /* align-items: flex-end; */
     color: #FFFFFF;
-    width: auto;
+    /* width: auto; */
+}
+
+@media screen and (min-width: 500px) {
+.banner {
+    margin-bottom: 50px;
+}
+
+    .banner-picture {
+        height: 223px;
+        border-radius: 25px;
+    }
+
+    
 }

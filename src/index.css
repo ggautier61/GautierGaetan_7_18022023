@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  width: auto;
 }
 
 body {
@@ -9,11 +8,6 @@ body {
   min-height: 100vh;
   min-width: auto;
 }
-
-/* #root {
-  display: flex;
-  justify-content: center;
-} */
 
 h2 {
   font-size: 36px;
@@ -27,7 +21,7 @@ p {
 
 .main-container {
   padding-left: 20px;
-    padding-right: 20px;
+  padding-right: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,8 +112,13 @@ p {
 
 
 @media screen and (min-width: 500px) {
+  
+  
+
   .main-container {
     padding-left: 100px;
-      padding-right: 100px;
+    padding-right: 100px;
   }
+  
+
 }

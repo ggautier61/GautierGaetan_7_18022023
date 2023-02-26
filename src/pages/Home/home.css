@@ -8,10 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: #F7F7F7;
     border-radius: 25px;
-    padding: 50px;
-    padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 25px;
     width: auto;
@@ -19,7 +16,18 @@
 }
 
 .home-logement-item {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    width: auto;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .home-logements-list {
+        background: #F7F7F7;
+            padding-top: 25px;
+    }
+
+    .home-logement-item {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: auto;
+    }
 }

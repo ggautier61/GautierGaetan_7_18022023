@@ -5,7 +5,7 @@ function Thumb({ id, title, cover }) {
     <div className="thumb">
       <img className="thumb-picture" src={cover} alt={title}></img>
       <div className="thumb-title">
-        <p>{title}</p>
+        <p className="weight500">{title}</p>
       </div>
     </div>
   )
