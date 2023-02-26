@@ -29,12 +29,19 @@
 }
 
 @media screen and (min-width: 500px) {
-.banner {
-    margin-bottom: 50px;
-}
+    .banner {
+        margin-bottom: 50px;
+    }
 
     .banner-picture {
         height: 223px;
+        border-radius: 25px;
+    }
+
+    .banner-title {
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
         border-radius: 25px;
     }
 
