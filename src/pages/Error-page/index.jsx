@@ -1,16 +1,10 @@
-import { useRouteError } from 'react-router-dom'
-import Header from '../../components/Header'
-import '../Error-page/index.css'
-import { Link } from 'react-router-dom'
-import '../Home/home.css'
+import { Navigate, useRouteError } from "react-router-dom"
+import { Link } from "react-router-dom"
+import "../Error-page/error-page.css"
 
-export default function ErrorPage() {
-  const error = useRouteError()
-  console.error(error)
-
+function ErrorPage() {
   return (
     <div className="main-container">
-      <Header />
       <div id="error-page">
         <h1 id="error">404</h1>
         <div className="oups">
@@ -25,3 +19,5 @@ export default function ErrorPage() {
     </div>
   )
 }
+
+export default ErrorPage
