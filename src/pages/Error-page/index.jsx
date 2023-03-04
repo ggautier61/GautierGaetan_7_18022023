@@ -1,4 +1,3 @@
-import { Navigate, useRouteError } from "react-router-dom"
 import { Link } from "react-router-dom"
 import "../Error-page/error-page.css"
 

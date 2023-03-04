@@ -1,4 +1,4 @@
-import { Navigate, Router, useParams } from "react-router"
+import { Navigate, useParams } from "react-router"
 import Carousel from "../../components/Carousel"
 import Rate from "../../components/Rate"
 import Tag from "../../components/Tag"

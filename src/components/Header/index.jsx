@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import logo from "../../assets/logo.svg"
 import "./index.css"
 
@@ -10,14 +10,14 @@ function Header() {
       <nav id="header-nav">
         <ul className="nav-list">
           <li id="accueil" className="w-auto">
-            <Link className="nav-link" to="/">
+            <NavLink exact="true" to="/" className="nav-link">
               Accueil
-            </Link>
+            </NavLink>
           </li>
           <li id="apropos" className="w-auto">
-            <Link className="nav-link" to="/a-propos">
+            <NavLink to="/a-propos" className="nav-link">
               A Propos
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

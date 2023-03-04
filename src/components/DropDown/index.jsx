@@ -2,6 +2,7 @@ import DropDownItem from "./DropDown_Item"
 import DropDownTitle from "./DropDown_Title"
 import "../DropDown/dropdown.css"
 import { useRef, useState } from "react"
+import DropDownItemArray from "./DropDown_ItemArray"
 
 function DropDown({ name, comment, fontSize }) {
   const [collapse, setOPen] = useState(false)
@@ -27,7 +28,11 @@ function DropDown({ name, comment, fontSize }) {
         }
       >
         <div className="dropdown-comment">
-          <DropDownItem arrayComment={comment} fontSize={fontSize} />
+          {name === "Equipements" ? (
+            <DropDownItemArray comment={comment} fontSize={fontSize} />
+          ) : (
+            <DropDownItem comment={comment} fontSize={fontSize} />
+          )}
         </div>
       </div>
     </div>

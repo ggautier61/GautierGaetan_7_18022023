@@ -1,14 +1,17 @@
 // import { useRef } from "react"
-import "../DropDown_Item/dropdown-item.css"
+import "../DropDown_ItemArray/dropdown-item.css"
 
-function DropDownItem(props) {
+function DropDownItemArray(props) {
   const { comment, fontSize } = props
   console.log({ comment })
+  var i = 0
   return (
     <div className="dropdown-item" style={{ fontSize: fontSize + "px" }}>
-      {comment}
+      {comment.map((c) => (
+        <div key={i++}>{c}</div>
+      ))}
     </div>
   )
 }
 
-export default DropDownItem
+export default DropDownItemArray
