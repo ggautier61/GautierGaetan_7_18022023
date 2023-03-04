@@ -5,7 +5,6 @@ import StarGray from "../../assets/Star_gray.png"
 function Rate(props) {
   const { numberRate } = props
   const range = [1, 2, 3, 4, 5]
-  //   const starType = numberRate >= "light" ? "☀️" : "💧"
 
   console.log(numberRate)
   return (
@@ -13,7 +12,6 @@ function Rate(props) {
       {range.map(
         (itemRange) =>
           numberRate >= itemRange ? (
-            // <div key={itemRange.toString()}>
             <img
               key={itemRange.toString()}
               src={StarRed}
@@ -21,10 +19,6 @@ function Rate(props) {
               className="star mr-10"
             ></img>
           ) : (
-            // <div>{number</div>
-            // </div>
-            //   </div>
-            //   <div>
             <img
               key={itemRange}
               src={StarGray}
