@@ -10,12 +10,12 @@ body {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -27,12 +27,28 @@ p {
   align-items: center;
 }
 
-.font-main {
+.color-main {
   color: #FF6060;
 }
 
-.font-white {
+.color-white {
   color: white;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
 }
 
 .background-main {
@@ -90,6 +106,14 @@ p {
   margin-bottom: 0;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .ml-10 {
   margin-left: 10px;
 }
@@ -113,7 +137,13 @@ p {
 
 @media screen and (min-width: 500px) {
   
-  
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 
   .main-container {
     padding-left: 100px;

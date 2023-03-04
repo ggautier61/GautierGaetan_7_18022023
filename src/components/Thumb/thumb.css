@@ -26,3 +26,10 @@
 .thumb-title p {
     width: 75%;
 }
+
+@media screen and (min-width: 500px) {
+    .thumb {
+        height: 340px;
+        width: 340px;
+    }
+}

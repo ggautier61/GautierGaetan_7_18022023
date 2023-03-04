@@ -10,10 +10,10 @@ function DropDownTitle({ name, collapse }) {
           <img
             src={arrow}
             alt="Flèche"
-            className="w-auto dropdown-arrow-up"
+            className="dropdown-arrow w-auto dropdown-arrow-up"
           ></img>
         ) : (
-          <img className="w-auto" src={arrow} alt="Flèche"></img>
+          <img className="dropdown-arrow w-auto" src={arrow} alt="Flèche"></img>
         )}
       </div>
     </div>

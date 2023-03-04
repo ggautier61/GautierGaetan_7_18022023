@@ -2,8 +2,8 @@
     background-color: #FF6060;
     color: white;
     border-radius: 5px;
-    height: 47px;
-    font-size: 24px;
+    height: 29.93px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +12,23 @@
     cursor: pointer;
 }
 
+.dropdown-arrow {
+    height: 8.96px;
+    width: 15.2px;
+}
+
 .dropdown-arrow-up {
     transform: rotate(180deg);
+}
+
+@media screen and (min-width: 500px) {
+    .dropdown-title {
+        height: 47px;
+        font-size: 24px;
+    }
+
+    .dropdown-arrow {
+        height: 15.56px;
+        width: 26.4px;
+    }
 }

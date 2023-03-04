@@ -2,9 +2,13 @@
     max-width: 1440px;
 }
 
+.logement-place {
+    margin-top: 5px;
+}
+
 .image-avatar {
-    height: 64px;
-    width: 64px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
 }
 
@@ -15,4 +19,17 @@
 .logement-dropdown-item {
     width: 50%;
     max-width: 582px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .image-avatar {
+        height: 64px;
+        width: 64px;
+    }
+
+    .logement-dropdown-item {
+        margin-bottom: 0px;
+    }
 }

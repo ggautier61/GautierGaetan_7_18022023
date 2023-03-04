@@ -27,7 +27,7 @@ function DropDown({ name, comment, fontSize }) {
         }
       >
         <div className="dropdown-comment">
-          <DropDownItem comment={comment} fontSize={fontSize} />
+          <DropDownItem arrayComment={comment} fontSize={fontSize} />
         </div>
       </div>
     </div>

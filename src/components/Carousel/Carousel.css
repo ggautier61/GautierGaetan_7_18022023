@@ -12,22 +12,23 @@
     position: absolute;
     bottom: 6%;
     font-weight: 500;
+    display: none;
 }
 
 .carousel-img {
     width: 100%;
-    height: 415px;
+    height: 255px;
     object-fit: cover;
     object-position: center;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .prev,
 .next {
     cursor: pointer;
     position: absolute;
-    width: 46.68px;
-    height: 79.2px;
+    width: 11.67px;
+    height: 19.8px;
 }
 
 .prev {
@@ -37,4 +38,22 @@
 
 .next {
     right:22px;
+}
+
+@media screen and (min-width: 500px) {
+    .carousel-img {
+        height: 415px;
+        border-radius: 25px;
+    }
+
+    .prev,
+    .next {
+        width: 46.68px;
+        height: 79.2px;
+    }
+
+    .carousel-index {
+        display: block;
+    }
+
 }

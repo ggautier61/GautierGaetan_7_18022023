@@ -56,11 +56,16 @@ header {
         padding-left: 100px;
         padding-top: 40px;
         padding-right: 100px;
+        margin-bottom: 63px;
     }
 
     #accueil,
     #apropos {
-        padding: 57px;
+        /* padding: 57px; */
+        width: 136px;
+        max-width: 136px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     #logo {
