@@ -7,17 +7,18 @@
     margin-top: -7px;
     z-index: -1;
     position: sticky;
+    border-radius: 5px;
 }
 
 .content-hidde {
     height: 0px;
-    /* height: 0px; */
+    border-radius: 5px;
     overflow: hidden;
     transition: height ease 0.9s;
+    transform: translateY(-5px);
 }
 
 .content-show {
     height: 150px;
     transition: height ease 0.9s;
-    /* height: 200px; */
 }

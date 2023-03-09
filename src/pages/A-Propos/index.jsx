@@ -17,7 +17,7 @@ function APropos() {
                 <DropDown
                   name={name}
                   comment={comment}
-                  fontSize="18"
+                  fontSize="12"
                 ></DropDown>
               </div>
             ))}

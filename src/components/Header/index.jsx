@@ -5,7 +5,6 @@ import "./index.css"
 function Header() {
   return (
     <header>
-      {/* <div> */}
       <img id="logo" src={logo} alt="logo" />
       <nav id="header-nav">
         <ul className="nav-list">
@@ -21,8 +20,6 @@ function Header() {
           </li>
         </ul>
       </nav>
-
-      {/* </div> */}
     </header>
   )
 }

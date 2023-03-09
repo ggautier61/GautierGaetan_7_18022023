@@ -1,17 +1,25 @@
 .tag {
-    height: 25px;
-    min-width: 115px;
+    height: 18px;
+    /* width: 84px; */
     border-radius: 5px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    min-width: 84px;
 }
 
 .tag-title {
-    font-size: 14px
+    font-size: 10px
 }
 
 @media screen and (min-width: 500px) {
     .tag {
         border-radius: 10px;
+        height: 25px;
+        min-width: 115px;
+    }
+
+    .tag-title {
+        font-size: 14px
     }
 }

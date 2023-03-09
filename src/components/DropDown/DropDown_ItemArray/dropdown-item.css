@@ -15,5 +15,6 @@
     .dropdown-item {
         padding: 18px;
         padding-top: 36px;
+        font-size: 18px !important;
     }
 }

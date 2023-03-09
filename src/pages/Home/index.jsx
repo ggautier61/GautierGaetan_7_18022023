@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Thumb from "../../components/Thumb"
 import Banner from "../../components/Banner"
 import bannerHome from "../../assets/banner_home.png"
-import { LogementsList } from "../../datas/logements"
+import logements from "../../datas/logements"
 import "../Home/home.css"
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
 
         <div className="home-logements-list">
           <div className="flex justify-center justify-space-evenly wrap">
-            {LogementsList.map(({ id, title, cover }) => (
+            {logements.map(({ id, title, cover }) => (
               <Link
                 key={id}
                 className="home-logement-item"
