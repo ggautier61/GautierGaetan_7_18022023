@@ -1,16 +1,39 @@
 #error {
-    font-size: 288px;
+    font-size: 96px;
     font-weight: 700;
     margin: 0;
+    margin-bottom: 11px;
+    line-height: 137px;
+}
+
+#error-page {
+    color: #FF6060;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oups {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 111px;
+}
+
+.back-to-home {
+    font-size: 14px;
+    color: #FF6060;
+}
+
+@media screen and (min-width: 700px) {
+#error {
+    font-size: 288px;
 }
 
 #error-page {
     padding-left: 100px;
     padding-right: 100px;
-    color: #FF6060;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .oups {
@@ -20,5 +43,6 @@
 
 .back-to-home {
     font-size: 18px;
-    color: #FF6060;
+}
+
 }

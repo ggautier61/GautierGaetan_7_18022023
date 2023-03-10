@@ -3,8 +3,9 @@ import "../Error-page/error-page.css"
 
 function ErrorPage() {
   return (
-    <div className="main-container">
+    <div className="main-container h-100 justify-center">
       <div id="error-page">
+        <div></div>
         <h1 id="error">404</h1>
         <div className="oups">
           Oups! La page que vous demandez n'existe pas.
