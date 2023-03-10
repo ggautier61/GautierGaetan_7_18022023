@@ -27,7 +27,7 @@
     width: 75%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .thumb {
         height: 340px;
         width: 340px;

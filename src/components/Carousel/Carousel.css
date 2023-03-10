@@ -40,7 +40,7 @@
     right:22px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .carousel-img {
         height: 415px;
         border-radius: 25px;

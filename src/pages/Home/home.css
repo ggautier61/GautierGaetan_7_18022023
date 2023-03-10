@@ -10,24 +10,28 @@
     justify-content: space-between;
     border-radius: 25px;
     padding-bottom: 25px;
-    margin-bottom: 25px;
     width: auto;
     max-width: 1440px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .home-logement-item {
-    margin-bottom: 20px;
+    width: 100%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .home-logements-list {
         background: #F7F7F7;
-            padding-top: 25px;
+        padding: 50px;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        row-gap: 70px;
+        column-gap: 60px;
     }
 
     .home-logement-item {
-        padding-top: 25px;
-        padding-bottom: 25px;
         width: auto;
+        margin-bottom: 0;
     }
 }

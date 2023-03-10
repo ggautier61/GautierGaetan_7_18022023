@@ -19,7 +19,7 @@
     font-size: 12px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .footer {
     padding-top: 66px;
     padding-bottom: 29px;

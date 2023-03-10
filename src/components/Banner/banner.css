@@ -28,7 +28,7 @@
     /* width: auto; */
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .banner {
         margin-bottom: 50px;
     }

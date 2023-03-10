@@ -11,7 +11,7 @@
     border-radius: 5px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .dropdown-item {
         padding: 18px;
         padding-top: 36px;

@@ -10,3 +10,10 @@
 .a-propos-item {
     margin-bottom: 31px;
 }
+
+/* @media screen and (min-width: 700px){
+    .dropdown-title {
+        height: 47px;
+        font-size: 24px;
+    }
+} */

@@ -35,7 +35,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     .image-avatar-blank, .image-avatar {
         height: 64px;
         min-height: 64px;
@@ -66,5 +66,10 @@
 
     .logement-dropdown-item {
         margin-bottom: 0px;
+    }
+
+    .dropdown-title {
+        height: 47px;
+        font-size: 18px;
     }
 }
