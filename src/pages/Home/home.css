@@ -36,3 +36,20 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .home-logements-list {
+        background: #F7F7F7;
+        padding: 50px;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        row-gap: 70px;
+        column-gap: 60px;
+        margin-bottom: 63px;
+    }
+
+    .home-logement-item {
+        width: auto;
+        margin-bottom: 0;
+    }
+}

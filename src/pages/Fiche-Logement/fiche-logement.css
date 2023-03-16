@@ -30,7 +30,7 @@
 
 .logement-dropdown-item {
     width: 50%;
-    max-width: 582px;
+    /* max-width: 582px; */
     width: 100%;
     margin-bottom: 20px;
 }
