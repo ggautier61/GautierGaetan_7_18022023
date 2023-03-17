@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import Thumb from "../../components/Thumb"
-import Banner from "../../components/Banner"
+import Thumb from "../../components/Thumb/thumb"
+import Banner from "../../components/Banner/banner"
 import bannerHome from "../../assets/banner_home.png"
 import logements from "../../datas/logements"
 import "../Home/home.css"

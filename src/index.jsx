@@ -1,45 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Home from "./pages/Home"
-import FicheLogement from "./pages/Fiche-Logement"
-import APropos from "./pages/A-Propos"
-import ErrorPage from "./pages/Error-page"
-// import ErrorPage2 from "./pages/ErrorPage"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Home from "./pages/Home/home"
+import FicheLogement from "./pages/Fiche-Logement/fiche-logement"
+import APropos from "./pages/A-Propos/a-propos"
+import ErrorPage from "./pages/Error-page/error-page"
+import Header from "./components/Header/header"
+import Footer from "./components/Footer/footer"
 import "../src/index.css"
 import { Route, Routes } from "react-router"
 import { BrowserRouter } from "react-router-dom"
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Header />,
-//     children: [
-//       {
-//         path: "/home",
-//         element: <Home />,
-//       },
-//     ],
-//   },
-// ])
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />,
-//     errorElement: <ErrorPage />,
-//   },
-//   {
-//     path: "/logement/:id",
-//     element: <FicheLogement />,
-//     errorElement: <ErrorPage />,
-//   },
-//   {
-//     path: "/a-propos",
-//     element: <APropos />,
-//   },
-// ])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

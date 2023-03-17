@@ -1,8 +1,8 @@
 import { Navigate, useParams } from "react-router"
-import Carousel from "../../components/Carousel"
-import Rate from "../../components/Rate"
-import Tag from "../../components/Tag"
-import DropDown from "../../components/DropDown"
+import Carousel from "../../components/Carousel/Carousel"
+import Rate from "../../components/Rate/rate"
+import Tag from "../../components/Tag/tag"
+import DropDown from "../../components/DropDown/dropdown"
 import logements from "../../datas/logements"
 import "../Fiche-Logement/fiche-logement.css"
 

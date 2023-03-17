@@ -1,7 +1,7 @@
-import Banner from "../../components/Banner"
+import Banner from "../../components/Banner/banner"
 import bannerAPropos from "../../assets/banner_a-propos.png"
 import { AProposItems } from "../../datas/a_propos_items"
-import DropDown from "../../components/DropDown"
+import DropDown from "../../components/DropDown/dropdown"
 import "../A-Propos/a-propos.css"
 import "../Home/home.css"
 

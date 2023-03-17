@@ -1,8 +1,8 @@
-import DropDownItem from "./DropDown_Item"
-import DropDownTitle from "./DropDown_Title"
+import DropDownItem from "./DropDown_Item/dropdown-item"
+import DropDownTitle from "./DropDown_Title/dropdown-title"
 import "../DropDown/dropdown.css"
 import { useRef, useState } from "react"
-import DropDownItemArray from "./DropDown_ItemArray"
+import DropDownItemArray from "./DropDown_ItemArray/dropDown_ItemArray"
 
 function DropDown({ name, comment, fontSize }) {
   const [collapse, setOPen] = useState(false)
