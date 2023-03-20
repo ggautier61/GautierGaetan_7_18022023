@@ -3,7 +3,6 @@ import "../DropDown_ItemArray/dropDown_ItemArray.css"
 
 function DropDownItemArray(props) {
   const { comment, fontSize } = props
-  console.log({ comment })
   var i = 0
   return (
     <div className="dropdown-item" style={{ fontSize: fontSize + "px" }}>

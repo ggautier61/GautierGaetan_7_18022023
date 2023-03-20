@@ -6,7 +6,6 @@ function Rate(props) {
   const { numberRate } = props
   const range = [1, 2, 3, 4, 5]
 
-  console.log(numberRate)
   return (
     <div className="flex no-wrap">
       {range.map(
