@@ -5,10 +5,11 @@ function ErrorPage() {
   return (
     <div className="main-container h-100 justify-center">
       <div id="error-page">
-        <div></div>
-        <h1 id="error">404</h1>
-        <div className="oups">
-          Oups! La page que vous demandez n'existe pas.
+        <div className="error-title">
+          <h1 id="error">404</h1>
+        </div>
+        <div>
+          <p className="oups">Oups! La page que vous demandez n'existe pas.</p>
         </div>
         <div>
           <Link className="back-to-home" to="/">
