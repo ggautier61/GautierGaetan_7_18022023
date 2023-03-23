@@ -7,25 +7,23 @@ function Rate(props) {
   const range = [1, 2, 3, 4, 5]
 
   return (
-    <div className="flex no-wrap">
-      {range.map(
-        (itemRange) =>
-          numberRate >= itemRange ? (
-            <img
-              key={itemRange.toString()}
-              src={StarRed}
-              alt="star red"
-              className="star mr-10"
-            ></img>
-          ) : (
-            <img
-              key={itemRange}
-              src={StarGray}
-              alt="star gray"
-              className="star mr-10"
-            ></img>
-          )
-        //   </div>
+    <div className="flex flex-nowrap">
+      {range.map((itemRange) =>
+        numberRate >= itemRange ? (
+          <img
+            key={itemRange.toString()}
+            src={StarRed}
+            alt="star red"
+            className="star mr-10"
+          ></img>
+        ) : (
+          <img
+            key={itemRange}
+            src={StarGray}
+            alt="star gray"
+            className="star mr-10"
+          ></img>
+        )
       )}
     </div>
   )

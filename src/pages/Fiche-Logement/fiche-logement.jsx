@@ -32,7 +32,7 @@ function FicheLogement() {
                 </p>
               </div>
               {/* ----- Tag ----- */}
-              <div className="flex w-auto gap-10">
+              <div className="flex flex-wrap w-auto gap-10">
                 {logement.tags.map((tag) => (
                   <div key={tag}>
                     <Tag title={tag} />

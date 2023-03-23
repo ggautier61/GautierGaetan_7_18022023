@@ -27,29 +27,29 @@
 }
 
 @media screen and (min-width: 700px) {
-#error {
-    font-size: 288px;
-}
+    #error {
+        font-size: 288px;
+    }
 
-#error-page {
-    padding-left: 0;
-    padding-right: 0;
-    flex-wrap: wrap;
-    flex: 1;
-    flex-direction: row;
-}
+    #error-page {
+        padding-left: 0;
+        padding-right: 0;
+        flex-wrap: wrap;
+        flex: 1;
+        flex-direction: row;
+    }
 
-.oups {
-    font-size: 36px;
-    margin-bottom: 100px;
-}
+    .oups {
+        font-size: 36px;
+        margin-bottom: 100px;
+    }
 
-.back-to-home {
-    font-size: 18px;
-}
+    .back-to-home {
+        font-size: 18px;
+    }
 
-.error-title {
-    display: flex;
-}
+    .error-title {
+        display: flex;
+    }
 
 }

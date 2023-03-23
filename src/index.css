@@ -37,6 +37,13 @@ p {
   flex: 1;
 }
 
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .color-main {
   color: #FF6060;
 }
@@ -85,11 +92,11 @@ p {
   flex-direction: column;
 }
 
-.no-wrap {
+.flex-nowrap {
   flex-wrap: nowrap;
 }
 
-.wrap {
+.flex-wrap {
   flex-wrap: wrap;
 }
 

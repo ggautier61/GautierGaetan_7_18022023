@@ -12,7 +12,6 @@ function Home() {
         <Banner picture={bannerHome} texte="Chez vous, partout et ailleurs" />
 
         <div className="home-logements-list">
-          {/* <div className="home-logementflex justify-center wrap"> */}
           {logements.map(({ id, title, cover }) => (
             <Link
               key={id}
@@ -22,7 +21,6 @@ function Home() {
               <Thumb id={id} title={title} cover={cover}></Thumb>
             </Link>
           ))}
-          {/* </div> */}
         </div>
       </div>
     </div>

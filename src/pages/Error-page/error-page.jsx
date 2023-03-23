@@ -8,7 +8,7 @@ function ErrorPage() {
         <div className="error-title">
           <h1 id="error">404</h1>
         </div>
-        <div>
+        <div className="w-100">
           <p className="oups">Oups! La page que vous demandez n'existe pas.</p>
         </div>
         <div>
