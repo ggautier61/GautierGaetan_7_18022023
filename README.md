@@ -11,9 +11,6 @@ Here are the dependancies you need to install:
 
 Then, clone this repo, and run the command `npm install` to install the dependancies of the projet.
 
-Clone
-In the project directory, you can run:
-
 ## Starting
 
 In you terminal just run the commande `npm start`
